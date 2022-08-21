@@ -5,6 +5,6 @@ import { RouterLink } from "vue-router";
   <div class="btm-nav">
     <RouterLink to="/users" active-class="active"> Usuarios </RouterLink>
     <RouterLink to="/" active-class="active "> Inicio </RouterLink>
-    <RouterLink to="/assign" active-class="active "> Dotación </RouterLink>
+    <RouterLink to="/endowment" active-class="active "> Dotación </RouterLink>
   </div>
 </template>
