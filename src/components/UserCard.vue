@@ -4,9 +4,9 @@ import { RouterLink } from "vue-router";
 </script>
 <template>
   <CardComponent>
-    <div class="flex justify-between items-center">
-      <h3 class="text-white text-xl">Crear usuario</h3>
-      <RouterLink to="/users" class="btn btn-glass text-white">Ir</RouterLink>
+    <div class="flex items-center justify-between">
+      <h3 class="text-xl text-white">Nuevo trabajador</h3>
+      <RouterLink to="/users" class="text-white btn btn-glass">Ir</RouterLink>
     </div>
   </CardComponent>
 </template>
